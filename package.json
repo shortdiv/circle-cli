@@ -1,5 +1,5 @@
 {
-  "name": "circle-node-cli",
+  "name": "circle-cli",
   "version": "1.0.0",
   "description": "A command line tool for Circle CI build statuses in node",
   "main": "index.js",
