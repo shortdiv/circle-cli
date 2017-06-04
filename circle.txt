@@ -1,0 +1,4 @@
+username=USERNAME
+project=PROJECTNAME
+vcs=VERSIONCONTROL
+token=TOKEN

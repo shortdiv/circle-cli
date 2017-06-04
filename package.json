@@ -1,0 +1,29 @@
+{
+  "name": "circle-node-cli",
+  "version": "1.0.0",
+  "description": "A command line tool for Circle CI build statuses in node",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "webpack",
+    "postbuild": "npm link",
+    "clean": "rimraf dist/"
+  },
+  "bin": {
+    "circle-cli": "dist/circle-cli.js"
+  },
+  "author": "Divya Sasidharan",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-polyfill": "^6.23.0",
+    "chalk": "^1.1.3",
+    "request": "^2.81.0"
+  }
+}
